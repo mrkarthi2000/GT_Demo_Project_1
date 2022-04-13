@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2022-04-11T18:48:18 IST" finished-at="2022-04-11T18:48:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2022-04-11T18:48:18 IST" finished-at="2022-04-11T18:48:18 IST">
+      <class name="simpleannoction.STCM">
+        <test-method status="PASS" signature="Setproperty()[pri:0, instance:simpleannoction.STCM@77ec78b9]" name="Setproperty" is-config="true" duration-ms="24" started-at="2022-04-11T18:48:18 IST" finished-at="2022-04-11T18:48:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setproperty -->
+      </class> <!-- simpleannoction.STCM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

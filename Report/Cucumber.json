@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login Page",
+        "description": "",
+        "id": "adactin-feature;login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2352216000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lanching the application",
+            "match": {
+              "location": "Audactin_SD.user_lanching_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226330800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"mrkarthikeyan\" a username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mrkarthikeyan",
+                  "offset": 12
+                }
+              ],
+              "location": "Audactin_SD.user_enter_a_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128763300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"Thinkdifferent@#123\" a password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thinkdifferent@#123",
+                  "offset": 12
+                }
+              ],
+              "location": "Audactin_SD.user_enter_a_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714672900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter submit button",
+            "match": {
+              "location": "Audactin_SD.user_enter_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Group of Hotel",
+        "description": "",
+        "id": "adactin-feature;group-of-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226732000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user select the area location",
+            "match": {
+              "location": "Audactin_SD.user_select_the_area_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368376500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user now select the hotels",
+            "match": {
+              "location": "Audactin_SD.user_now_select_the_hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227021700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select types of hotels",
+            "match": {
+              "location": "Audactin_SD.user_select_types_of_hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188240900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select the nos person stay in room",
+            "match": {
+              "location": "Audactin_SD.user_select_the_nos_person_stay_in_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223287700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select adult are there",
+            "match": {
+              "location": "Audactin_SD.user_select_adult_are_there()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131753600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select Child are there",
+            "match": {
+              "location": "Audactin_SD.user_select_Child_are_there()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675107200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the search button",
+            "match": {
+              "location": "Audactin_SD.user_click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Avilable Hotel",
+        "description": "",
+        "id": "adactin-feature;avilable-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117556700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is select available hotels",
+            "match": {
+              "location": "Audactin_SD.user_is_select_available_hotels()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566079800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click the contine",
+            "match": {
+              "location": "Audactin_SD.user_click_the_contine()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Book a Hotel",
+        "description": "",
+        "id": "adactin-feature;book-a-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123806300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter the first name",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_first_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129978000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter the last name",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112140100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter the billing name",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_billing_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157350300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter the credit card no",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_credit_card_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313508300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter the credit card type",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342033100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enter the credit card expiry month",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_credit_card_expiry_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225388600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enter the credit card expiry Year",
+            "match": {
+              "location": "Audactin_SD.user_enter_the_credit_card_expiry_Year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94841800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "finally user enter the credit card cvv no",
+            "match": {
+              "location": "Audactin_SD.finally_user_enter_the_credit_card_cvv_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Feature",
+    "description": "",
+    "id": "adactin-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/Maven_Demo_Project/src/test/java/featurefile/Loginpage.feature"
+  }
+]
